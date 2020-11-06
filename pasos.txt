@@ -1,0 +1,13 @@
+git remote add origin master "ssh" comando para traer un repositorio remoto
+luego se debe traer la ultima version con git pull origin master
+luego se debe realizar un commit
+luego se vuelve a hacer el git pull origin masterluego git push origin master.
+
+
+
+para realizar alias 
+Ejecutan este comando en la terminal y queda guardado en los alias pero de git. con esto se puede ejecutar cada que se escribe git superlog
+
+git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+git clone url para traer un repositorio queya estaba iniciado
